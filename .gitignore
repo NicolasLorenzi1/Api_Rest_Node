@@ -137,3 +137,15 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# node modules
+node_modules/
+
+# Firebase service account key
+src/config/serviceAccountKey.json
+
+# logs
+*.log
+
+# dotenv (se for usar)
+.env
